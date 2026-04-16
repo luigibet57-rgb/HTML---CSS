@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/* e, HTML ID = #, HTML Class = . */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #72abcc;
+}
+h1 {
+    color: #090909;
+}
+h1#principal {
+    text-align: center;
+    background-color: #aee69b;
+    color: #09488c;
+}
+h2 {
+    color: #555;
+}
+.basico {
+    text-align: left;
+    background-color: #d3e69b;
+    color: #09488c;
+}
+.intermediario {
+    text-align: left;
+    background-color: #e3b344;
+    color: #09488c;
+}
+.avançado {
+    text-align: left;
+    background-color: #d58864;
+    color: #09488c;
+}
+.destaque {
+    background-color: aqua;
+}
+p {
+    color: #333;
+    text-align: justify;
+    line-height: 1.5;
+}

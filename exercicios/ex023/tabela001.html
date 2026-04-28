@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            width: 400px;
+            border: 1px;
+            border-collapse: collapse;
+        }
+        tr.linha {
+            background-color: #635d5d;
+        }
+        td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+            td.dado {
+                background-color: #83ff16;
+            }
+    </style>
+</head>
+<body>
+    <h1>Minha primeira tabela</h1>
+    <table>
+        <!-- Hierarquia de tabelas (simples)
+            TABLE= Tabela
+            TR= Linha da tabela
+            TH= Cabeçalho da tabela
+            TD= Célula da tabela
+            tr> é a linha da tabela, dentro dela tem as células (td) e os cabeçalhos (th) estão organizados em colunas. O número de colunas é definido pelo número de células (td) ou cabeçalhos (th) em cada linha (tr). Se uma linha tiver mais células do que outra, as células extras serão preenchidas com células vazias (td) para manter a estrutura da tabela.
+        -->
+        <tr class="linha">
+            <td>A1
+            <td>B1
+            <td>C1
+        </tr>
+        <tr>
+            <td>A2
+            <td>B2
+            <td>C2
+        </tr>
+        <tr>
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+        <tr>
+            <td class="dado">A4</td>
+            <td>B4</td>
+            <td>C4</td>
+        </tr>
+    </table>
+    
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de Tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        caption {
+            font-size: 1.5em;
+            margin: 10px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 500px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            text-align: left;
+            padding: 8px;
+        }
+
+        .destaque {
+            background-color: #3cc818;
+        }
+
+        col.cnome {
+            background-color: aqua;
+            width: 150px;
+        }
+
+        col.cprof {
+            background-color: #cc2d2d;
+            width: 100px;
+        }
+
+        col.cgrupo {
+            background-color: #5140b5;
+        }
+        div#container {
+            overflow-x: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <h1> Exercicio de tabela </h1>
+
+    <div id="container">
+        <table>
+            <colgroup>
+                <col class="cnome">
+                <col class="cgrupo" span="2">
+                <col class="cprof">
+            </colgroup>
+            <caption>Cadastro</caption>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Profissão</th>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>20</td>
+                <td>Feminino</td>
+                <td>Estudante</td>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>25</td>
+                <td>Masculino</td>
+                <td>Engenheiro</td>
+            </tr>
+            <tr>
+                <td>Ana</td>
+                <td>30</td>
+                <td>Feminino</td>
+                <td>Médica</td>
+            </tr>
+            <tr>
+                <td>Pedro</td>
+                <td>35</td>
+                <td>Masculino</td>
+                <td>Advogado</td>
+            </tr>
+            <tr>
+                <td>Lucas</td>
+                <td>40</td>
+                <td>Masculino</td>
+                <td>Professor</td>
+            </tr>
+            <tr>
+                <td>Carla</td>
+                <td>45</td>
+                <td>Feminino</td>
+                <td>Arquiteta</td>
+            </tr>
+        </table>
+        
+    </div>
+</body>
+</html>
